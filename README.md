@@ -1,7 +1,7 @@
 Set Up Project
 
 Start JSON Server:
-json-server -p 5001 -w BorrowDB.json
+json-server -p 5001 -w DeannaDB.json
 
 
 
