@@ -76,32 +76,6 @@ label {
     border-bottom: 1px solid #8BA66A !important;
 }
 
-.addItemContainer {
-    background-image: url('../../../components/IMAGES/addItemArrow.png');
-    background-repeat: no-repeat;
-    width: 510px;
-    height: 480px;
-    margin: auto;
-    margin-top: 30px
-}
-
-.addItemContainer:hover {
-    background-image: url('../../../components/IMAGES/addItemHoveredArrow.png');
-    background-repeat: no-repeat;
-    width: 510px;
-    height: 480px;
-    margin: auto;
-    margin-top: 30px
-}
-
-.addItemContainer:active {
-    background-image: url('../../../components/IMAGES/addItemPressedArrow.png');
-    background-repeat: no-repeat;
-    width: 510px;
-    height: 480px;
-    margin: auto;
-    margin-top: 30px
-}
 
 .newItemForm {
     display: inline-grid;

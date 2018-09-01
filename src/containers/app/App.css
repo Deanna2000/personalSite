@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
 
 body {
-  font-family: 'Amatic SC', cursive !important;
+  font-family: 'Bangla Sangam MN' !important;
 }
 
 .App {
   text-align: center;
 }
 
-.App-logo {
+/* .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-}
+} */
 
 .App-header {
   background-color: #222;

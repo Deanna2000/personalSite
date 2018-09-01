@@ -1,0 +1,372 @@
+{
+  "users": [
+    {
+      "fName": "Steve",
+      "lName": "Collie",
+      "email": "steve@steve.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "fName": "Justina",
+      "lName": "Vickers",
+      "email": "dndplayersnash@gmail.com",
+      "password": "123",
+      "id": 2
+    },
+    {
+      "fName": "Aurora",
+      "lName": "Vickers",
+      "email": "doodropapp@gmail.com",
+      "password": "123",
+      "id": 3
+    },
+    {
+      "fName": "Brandi",
+      "lName": "Adkins",
+      "email": "brandi@brandi.com",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "fName": "Deanna",
+      "lName": "Vickers",
+      "email": "deanna2000@gmail.com",
+      "password": "123",
+      "id": 5
+    },
+    {
+      "fName": "Pineapple",
+      "lName": "Pancakes",
+      "email": "pineapple@pancakes.com",
+      "password": "123",
+      "id": 6
+    },
+    {
+      "fName": "Athena",
+      "lName": "Dog",
+      "email": "athena@athena.com",
+      "password": "123",
+      "id": 7
+    },
+    {
+      "fName": "Zoe",
+      "lName": "Dog",
+      "email": "zoe@zoe.com",
+      "password": "123",
+      "id": 8
+    },
+    {
+      "fName": "Lester",
+      "lName": "Badcat",
+      "email": "les@les.com",
+      "password": "123",
+      "id": 9
+    },
+    {
+      "fName": "Chili",
+      "lName": "Powder",
+      "email": "chili@powder.com",
+      "password": "123",
+      "id": 10
+    },
+    {
+      "fName": "Table",
+      "lName": "Kitchen",
+      "email": "Table@table.com",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "fName": "Betty",
+      "lName": "Vickers",
+      "email": "betty@betty.com",
+      "password": "123",
+      "id": 12
+    },
+    {
+      "fName": "green",
+      "lName": "green",
+      "email": "green@green.com",
+      "password": "123",
+      "id": 13
+    },
+    {
+      "fName": "banana",
+      "lName": "banana",
+      "email": "banana@banana.com",
+      "password": "123",
+      "id": 14
+    },
+    {
+      "fName": "olive",
+      "lName": "juice",
+      "email": "olive@olive.com",
+      "password": "123",
+      "profileImage": "",
+      "location": "",
+      "id": 15
+    },
+    {
+      "fName": "hatty",
+      "lName": "hatman",
+      "email": "hat@hat.com",
+      "password": "123",
+      "profileImage": "",
+      "location": "",
+      "id": 16
+    }
+  ],
+  "friendsRelationships": [
+    {
+      "id": 1,
+      "RequesterId": 1,
+      "AccepterId": 2,
+      "friendshipConfirmed": 1
+    },
+    {
+      "AccepterId": 2,
+      "RequesterId": 7,
+      "friendshipConfirmed": "",
+      "id": 15
+    },
+    {
+      "AccepterId": 2,
+      "RequesterId": 14,
+      "friendshipConfirmed": "",
+      "id": 17
+    },
+    {
+      "AccepterId": 5,
+      "RequesterId": 7,
+      "friendshipConfirmed": "",
+      "id": 22
+    },
+    {
+      "AccepterId": 4,
+      "RequesterId": 7,
+      "friendshipConfirmed": "",
+      "id": 24
+    },
+    {
+      "AccepterId": 6,
+      "RequesterId": 7,
+      "friendshipConfirmed": "",
+      "id": 28
+    },
+    {
+      "AccepterId": 1,
+      "RequesterId": 3,
+      "friendshipConfirmed": "",
+      "id": 29
+    },
+    {
+      "AccepterId": 2,
+      "RequesterId": 3,
+      "friendshipConfirmed": "",
+      "id": 30
+    },
+    {
+      "AccepterId": 5,
+      "RequesterId": 3,
+      "friendshipConfirmed": "",
+      "id": 31
+    }
+  ],
+  "sharedItems": [
+    {
+      "id": 2,
+      "name": "Firefly DVD",
+      "description": "15th Anniv Edition",
+      "lenderUserid": 3,
+      "borrowerUserid": 1,
+      "borrowerName": "Steve Collie",
+      "lenderName": "Aurora Vickers",
+      "dueDate": "2018-07-14",
+      "image": "https://a248.e.akamai.net/ib.huluim.com/show_key_art/827?size=1600x600&region=US",
+      "lendDate": "2018-06-01",
+      "archived": false,
+      "returnedDate": ""
+    },
+    {
+      "id": 3,
+      "name": "Bacon",
+      "description": "fresh",
+      "lenderUserid": 3,
+      "borrowerUserid": 2,
+      "borrowerName": "Justina Vickers",
+      "lenderName": "Aurora Vickers",
+      "dueDate": "2018-07-06",
+      "image": "https://hips.hearstapps.com/ghk.h-cdn.co/assets/16/08/1600x800/landscape-1456165374-bacon-strips.jpg?resize=768:*",
+      "lendDate": "2018-06-03",
+      "archived": false,
+      "returnedDate": ""
+    },
+    {
+      "id": 8,
+      "name": "Lunchbox",
+      "description": "Polka dots insulated tote",
+      "lenderUserid": 3,
+      "borrowerUserid": 1,
+      "borrowerName": "Steve Collie",
+      "lenderName": "Aurora Vickers",
+      "dueDate": "2018-07-10",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/816w1GpFrhL._SX425_.jpg",
+      "lendDate": "2018-06-07",
+      "archived": false,
+      "returnedDate": ""
+    },
+    {
+      "id": 9,
+      "name": "Table",
+      "description": "Folding Camp Table",
+      "lenderUserid": 3,
+      "borrowerUserid": 2,
+      "borrowerName": "Justina Vickers",
+      "lenderName": "Aurora Vickers",
+      "dueDate": "2018-07-18",
+      "image": "https://media.mwstatic.com/product-images/880x660/Primary/628/628644.jpg",
+      "lendDate": "2018-06-01",
+      "archived": false,
+      "returnedDate": ""
+    },
+    {
+      "id": 11,
+      "name": "Canning Jars",
+      "description": "Quart sized jars (10)",
+      "lenderUserid": 3,
+      "borrowerUserid": 4,
+      "borrowerName": "Brandi Adkins",
+      "lenderName": "Aurora Vickers",
+      "dueDate": "2018-09-16",
+      "image": "http://laurelleaffarm.com/item-photos/big-two-quart-size-glass-mason-jars-vintage-canning-jar-kitchen-canisters-Laurel-Leaf-Farm-item-no-nt6219-1.jpg",
+      "lendDate": "2018-06-01",
+      "archived": false,
+      "returnedDate": ""
+    },
+    {
+      "name": "phone",
+      "description": "iphone6",
+      "lenderUserid": 3,
+      "borrowerUserid": 1,
+      "borrowerName": "Steve Collie",
+      "lenderName": "Aurora Vickers",
+      "dueDate": "2018-06-29",
+      "image": "https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2018/01/02/104924110-3ED2-REQ-010218-iPhone6.1910x1000.jpg",
+      "lendDate": "2018-06-21",
+      "archived": false,
+      "returnedDate": "",
+      "id": 17
+    },
+    {
+      "name": "camelbak",
+      "description": "green waterbottle",
+      "borrowerName": "Aurora Vickers",
+      "lenderName": "Steve Collie",
+      "borrowerUserid": 3,
+      "lenderUserid": 1,
+      "dueDate": "2018-07-13",
+      "image": "https://6f3b8ef5c44ab5c4a6f8-2ffdd9d6553b25b4a8508669b55e19d9.ssl.cf1.rackcdn.com/colorized_large__7095_huntergreen_2016.png",
+      "lendDate": "2018-06-20",
+      "archived": false,
+      "returnedDate": "",
+      "id": 20
+    },
+    {
+      "name": "jacket",
+      "description": "green bomber",
+      "borrowerName": "Aurora Vickers",
+      "lenderName": "Steve Collie",
+      "borrowerUserid": 3,
+      "lenderUserid": 1,
+      "dueDate": "2018-07-14",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGIT9OIikIKFSmts7SktCzXyTdAt5jAK8uXEOX5sYoXIfp9KjMnw",
+      "lendDate": "2018-06-05",
+      "archived": false,
+      "returnedDate": "",
+      "id": 22
+    },
+    {
+      "name": "test2",
+      "description": "test2",
+      "borrowerName": "Aurora Vickers",
+      "lenderName": "Steve Collie",
+      "borrowerUserid": 3,
+      "lenderUserid": 1,
+      "dueDate": "2018-07-01",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/61P9tV3I8PL._SX355_.jpg",
+      "lendDate": "2018-06-01",
+      "archived": false,
+      "returnedDate": "",
+      "id": 24
+    },
+    {
+      "name": "blurg",
+      "description": "",
+      "borrowerName": "aurora",
+      "lenderName": "Steve Collie",
+      "lenderUserid": 1,
+      "dueDate": "",
+      "image": "",
+      "lendDate": "",
+      "archived": false,
+      "returnedDate": "",
+      "id": 30
+    },
+    {
+      "name": "Sleeping Bag",
+      "description": "Brown with red plaid inside",
+      "borrowerName": "Steve Collie",
+      "lenderName": "athena dog",
+      "lenderUserid": 35,
+      "dueDate": "2018-08-05",
+      "image": "http://www.sportys.com/media/catalog/product/cache/3/image/400x/040ec09b1e35df139433887a97daa66f/5/2/5202-f4u_1.jpg",
+      "lendDate": "2018-01-01",
+      "archived": false,
+      "returnedDate": "",
+      "id": 31
+    },
+    {
+      "name": "Capo",
+      "description": "silver guitar capo",
+      "borrowerName": "Justina Vickers",
+      "borrowerUserid": "2",
+      "lenderName": "Aurora Vickers",
+      "lenderUserid": 3,
+      "dueDate": "2018-07-04",
+      "image": "http://www.elephantmusicstore.com/product_images/q/323/guitar-buddy-capo-silver__18687_std.jpg",
+      "lendDate": "2018-06-13",
+      "archived": false,
+      "returnedDate": "",
+      "id": 32
+    },
+    {
+      "name": "purse",
+      "description": "holographic purse",
+      "borrowerName": "Aurora Vickers",
+      "borrowerUserid": "3",
+      "lenderName": "Justina Vickers",
+      "lenderUserid": 2,
+      "dueDate": "2018-07-14",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51nD77LoyhL.jpg",
+      "lendDate": "2018-06-27",
+      "archived": false,
+      "returnedDate": "",
+      "id": 33
+    },
+    {
+      "name": "baking pan",
+      "description": "cupcake pan (12)",
+      "borrowerName": "Justina Vickers",
+      "borrowerUserid": "2",
+      "lenderName": "Aurora Vickers",
+      "lenderUserid": 3,
+      "dueDate": "2018-07-20",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/91l5eNZ%2BtCL._SX466_.jpg",
+      "lendDate": "2018-06-06",
+      "archived": false,
+      "returnedDate": "",
+      "id": 34
+    }
+  ]
+}

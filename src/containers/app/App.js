@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import React from 'react';
 import Home from '../homePage/index'
 import './App.css';
-import Friends from '../Dashboard/Friends/DisplayFriendsAndUsers'
+import About from '../Dashboard/About/DisplayAboutView'
 import MyCollection from '../Dashboard/Items/DisplayItems'
 
 
@@ -15,7 +15,7 @@ class App extends React.Component {
         <Router>
           <div>
             <Route exact path="/" component={Home}/>
-            <Route path="/friends" component={Friends}/>
+            <Route path="/about" component={About}/>
             <Route path="/mycollection" component={MyCollection}/>
         </div>
         </Router>
