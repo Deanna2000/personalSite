@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './About.css';
-import NavBar from '../NavBar/NavBar';
+import CoreFocus from './CoreFocus';
 
 
 class About extends Component {
@@ -13,7 +13,7 @@ class About extends Component {
 			<div>
 				{/* <h1 className="aboutTitle">Getting to Know Me</h1> */}
 				<section className="aboutSectionContainer">
-					<h3 className="coreFocus">My Core Focus</h3>
+					<CoreFocus />
 					<h3 className="volunteer">Volunteer Lifestyle</h3>
 					<h3 className="careerChange">Changing careers</h3>
 					<h3 className="funStuff">Fun Stuff</h3>

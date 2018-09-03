@@ -87,3 +87,56 @@ h3 {
 	font-size: 38px !important;
 }
 
+.custom-overlay {
+    background: rgba(167, 162, 161, 0.6);
+  }
+
+.custom-modal {
+background: lightgoldenrodyellow;
+max-width: 700px;
+width: 100%;
+}
+
+.transition-enter {
+transform: scale(0);
+}
+.transition-enter-active {
+transform: scale(1);
+transition: transform 1000ms ease;
+}
+.transition-exit {
+transform: scale(1);
+}
+.transition-exit-active {
+transform: scale(0);
+transition: transform 1000ms ease;
+}
+
+.occupation button {
+background-color: lightgoldenrodyellow;
+border: none;
+width: 100%;
+}
+
+.boxShadow{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boxShadow::after {
+content: '';
+position: absolute;
+z-index: -1; /* hide shadow behind image */
+box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+width: 70%;
+left: 15%; /* one half of the remaining 30% */
+height: 100px;
+bottom: 0;
+}
+
+.occupationModalText{
+    text-align: left;
+    width: 75%;
+    float: right;
+    margin-right:10px;
+    font-size: .8em;
+}
