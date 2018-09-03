@@ -1,0 +1,16 @@
+.titleName {
+	color: white ;
+	font-size: 4em ;
+    font-weight: 600;
+    padding-top:40px;
+}
+
+h4 {
+	color: white !important;
+	font-size: 2em !important;
+}
+
+.titleLogo {
+    height: 200px;
+    margin-top: 50px;
+  }
