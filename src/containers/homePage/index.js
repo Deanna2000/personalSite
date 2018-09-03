@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-// import LoginRegisterUser from './register_login/LoginRegisterUser.js'
 import './Home.css';
 import fbicon from '../../components/IMAGES/facebookicon.png';
 import twicon from '../../components/IMAGES/twittericon.png';
@@ -7,6 +6,7 @@ import pinteresticon from '../../components/IMAGES/pinteresticon.png';
 import linkicon from '../../components/IMAGES/linkedinicon.png';
 import NavBar from '../Dashboard/NavBar/NavBar';
 import Title from '../Dashboard/Title/Title';
+import About from '../Dashboard/About/About';
 
 class Home extends Component {
   render() {
@@ -15,13 +15,14 @@ class Home extends Component {
         <div>
 			<NavBar />
         </div>
-        <div className="titleSection">
+        <section className="titleSection">
 			<Title />
-        </div>
-        <div className="secondSection">
-        </div>
-        <div className="thirdSection">
-        </div>
+        </section>
+        <section className="aboutSection">
+			<About />
+        </section>
+        <section className="thirdSection">
+        </section>
 		<div className="fourthSection">
         </div>
 		<div className="fifthSection">

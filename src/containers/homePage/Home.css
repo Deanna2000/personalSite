@@ -3,7 +3,7 @@
 
 h1 {
     color: white;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 body {
@@ -20,7 +20,7 @@ body {
 	background-image: url('../../components/IMAGES/GrayFlowersTop.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 600px;
 	max-width: 100%;
 }
 
@@ -29,9 +29,9 @@ body {
     margin: auto;
 }
 
-.secondSection {
-	height: 500px;
-	background-color: rgba(66, 153, 159, .8);
+.aboutSection {
+	height: 100%;
+	background-color: rgba(66, 153, 159, .9);
 	border: solid 2px #6bc1f7;
     background-size:20px 20px;
     background-position:0 0, 10px 10px;

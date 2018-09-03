@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { nav } from 'react-bootstrap';
 import './NavBar.css';
-import logo from '../../../components/IMAGES/deannalogosmall.png';
+import { nav } from 'react-bootstrap';
+import logo from '../../../components/IMAGES/deannalogolarge.png';
 
 
 class NavBar extends Component {
@@ -14,7 +14,7 @@ class NavBar extends Component {
 
       return (
 
-        <nav className="navbar-default">
+        <nav className="navbar navbar-default">
           <div className="container-fluid navContainer">
             <div className="navbar-header">
               <button type="button" className="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -23,7 +23,9 @@ class NavBar extends Component {
                 <span className="icon-bar"></span>
                 <span className="icon-bar"></span>
               </button>
+			  <a href="/home">
               <img className="logo" alt="logo" src={logo} />
+			  </a>
             </div>
             <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul className="nav navbarStyle">
