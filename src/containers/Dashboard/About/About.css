@@ -1,5 +1,5 @@
 .coreFocus {
-    background-image: url(/static/media/corefocus.16300e3c.jpg);
+    background-image: url('../../../components/IMAGES/corefocus.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(101, 179, 184, 0.5);
@@ -7,8 +7,8 @@
     height: 266px;
     width: 400px;
 	padding-top: 79px;
-    padding-left: 29%;
-    padding-right: 7%;
+    padding-left: 69%;
+    padding-right: 17%;
     color: white;
     box-shadow: inset 0px 0px 50px 5px rgba(77, 112, 114, 0.9);
 	border: solid 3px rgb(160, 182, 184);
@@ -91,12 +91,6 @@ h3 {
     background: rgba(167, 162, 161, 0.6);
   }
 
-.custom-modal {
-background: lightgoldenrodyellow;
-max-width: 700px;
-width: 100%;
-}
-
 .transition-enter {
 transform: scale(0);
 }
@@ -133,10 +127,25 @@ height: 100px;
 bottom: 0;
 }
 
-.occupationModalText{
-    text-align: left;
-    width: 75%;
-    float: right;
-    margin-right:10px;
-    font-size: .8em;
+.coreFocusModal {
+	background-image: url('../../../components/IMAGES/corefocus.jpg');
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-color: white !important;
+	opacity: .5;
+}
+
+.coreFocusModal > p {
+	color: rgb(77, 112, 114);
+    margin: 0 !important;
+    padding-top: 25px;
+    padding-left: 440px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+}
+
+.coreFocusModal > h3 {
+	color: rgb(77, 112, 114);
+	margin: 0;
+	padding: 40px 0 0 40px;
 }
