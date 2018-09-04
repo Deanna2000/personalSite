@@ -1,5 +1,5 @@
 .coreFocus {
-    background-image: url(/static/media/corefocus.16300e3c.jpg);
+    background-image: url('../../../components/IMAGES/corefocus.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(101, 179, 184, 0.5);
@@ -7,8 +7,8 @@
     height: 266px;
     width: 400px;
 	padding-top: 79px;
-    padding-left: 29%;
-    padding-right: 7%;
+    padding-left: 69%;
+    padding-right: 17%;
     color: white;
     box-shadow: inset 0px 0px 50px 5px rgba(77, 112, 114, 0.9);
 	border: solid 3px rgb(160, 182, 184);
@@ -87,3 +87,65 @@ h3 {
 	font-size: 38px !important;
 }
 
+.custom-overlay {
+    background: rgba(167, 162, 161, 0.6);
+  }
+
+.transition-enter {
+transform: scale(0);
+}
+.transition-enter-active {
+transform: scale(1);
+transition: transform 1000ms ease;
+}
+.transition-exit {
+transform: scale(1);
+}
+.transition-exit-active {
+transform: scale(0);
+transition: transform 1000ms ease;
+}
+
+.occupation button {
+background-color: lightgoldenrodyellow;
+border: none;
+width: 100%;
+}
+
+.boxShadow{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.boxShadow::after {
+content: '';
+position: absolute;
+z-index: -1; /* hide shadow behind image */
+box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+width: 70%;
+left: 15%; /* one half of the remaining 30% */
+height: 100px;
+bottom: 0;
+}
+
+.coreFocusModal {
+	background-image: url('../../../components/IMAGES/corefocus.jpg');
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-color: white !important;
+	opacity: .5;
+}
+
+.coreFocusModal > p {
+	color: rgb(77, 112, 114);
+    margin: 0 !important;
+    padding-top: 25px;
+    padding-left: 440px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+}
+
+.coreFocusModal > h3 {
+	color: rgb(77, 112, 114);
+	margin: 0;
+	padding: 40px 0 0 40px;
+}
