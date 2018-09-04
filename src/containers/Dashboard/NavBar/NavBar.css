@@ -6,13 +6,11 @@
 }
 
 .logo {
-    display: flex;
-    height: 50px !important;
+    height: 30px !important;
 }
 
 li {
     font-size: 1.2sem;
-    /* color: #9B9B9B; */
 }
 
 a {
@@ -25,19 +23,15 @@ a {
 }
 
 
-.navContainer {
-	background-color: rgba(66, 153, 159, .9);
+.navbar-inverse {
+	background-color: rgba(66, 153, 159, .9) !important;
 	border-bottom: solid 4px rgba(221, 192, 143, .8);
-	padding-top: 15px;
-	padding-bottom: 15px;
+	background-image: none !important;
+	border-color: rgba(66, 153, 159, .9) !important;
 }
 
-.navbarStyle {
-	display: inline-flex;
-	text-align: center !important;
-}
 
-.navbar {
+/* .navbar {
 	margin-bottom: 0 !important;
 	border:none;
-}
+} */
