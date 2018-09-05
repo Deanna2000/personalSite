@@ -54,10 +54,10 @@ body {
 
 .fifthSection {
     height: 600px;
-    background-image: url('../../components/IMAGES/brownfloral.png');
+    background-image: url('../../components/IMAGES/deannamandala.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	opacity: .7;
+	opacity: .5;
 }
 
 .promo {
