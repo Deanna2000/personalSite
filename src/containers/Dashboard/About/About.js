@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-// import './About.css';
+import Volunteer from './Volunteer';
 import CoreFocus from './CoreFocus';
+import CareerChange from './CareerChange';
 
 
 class About extends Component {
@@ -14,8 +15,8 @@ class About extends Component {
 				{/* <h1 className="aboutTitle">Getting to Know Me</h1> */}
 				<section className="aboutSectionContainer">
 					<CoreFocus />
-					<h3 className="volunteer">Volunteer Lifestyle</h3>
-					<h3 className="careerChange">Changing careers</h3>
+					<Volunteer />
+					<CareerChange />
 					<h3 className="funStuff">Fun Stuff</h3>
 				</section>
 			</div>

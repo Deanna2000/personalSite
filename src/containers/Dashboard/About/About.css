@@ -194,15 +194,14 @@ bottom: 0;
 }
 
 .coreFocusModal {
-	background-image: url('../../../components/IMAGES/corefocus.jpg');
+	background-image: url('../../../components/IMAGES/corefocus.png');
     background-size: cover;
 	background-repeat: no-repeat;
 	background-color: white !important;
-	opacity: .5;
 }
 
 .coreFocusModal > p {
-	color: rgb(77, 112, 114);
+	color: rgb(43, 139, 145);
     margin: 0 !important;
     padding-top: 25px;
     padding-left: 440px;
@@ -211,12 +210,91 @@ bottom: 0;
 }
 
 .coreFocusModal > h3 {
-	color: rgb(77, 112, 114);
+	color: rgb(43, 139, 145);
 	margin: 0;
 	padding: 40px 0 0 40px;
+}
+
+.volunteerModal {
+	background-image: url('../../../components/IMAGES/volunteer.png');
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-color: white !important;
+	display: grid;
+	padding-left: 10%;
+    grid-template-columns: 70% 10%;
+    align-items: center;
+    column-gap: 10%;
+}
+
+.volunteerText > p {
+	color: rgb(43, 139, 145);
+	padding-right: 50px;
+    padding-bottom: 22px;
+    padding-top: 107px;
+}
+
+.volunteerText > h3 {
+	color: rgb(43, 139, 145);
 }
 
 .styles_modal__gNwvD {
 	padding: 0 !important;
 	margin-top: 50px !important;
+}
+
+.linkedinarticle > p {
+	text-decoration: none;
+	color: rgb(168, 28, 60);
+	font-size: 1.2em;
+	padding-bottom: 10px;
+}
+
+.vologo {
+	float: right;
+    padding: 10px;
+    width: 87px;
+}
+
+.vologogroup {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.careerChangeModal {
+	background-image: url('../../../components/IMAGES/transitioning.png');
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-color: white !important;
+}
+
+.careerChangeModal > p {
+	color: rgb(43, 139, 145);
+    margin: 0 !important;
+    padding-top: 25px;
+    padding-left: 440px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+}
+
+.careerChangeModal > h3 {
+	color: rgb(43, 139, 145);
+
+}
+
+.careerChangeText > p {
+	color: rgb(43, 139, 145);
+	padding-right: 50px;
+	padding-bottom: 22px;
+	padding-top: 40px;
+}
+
+.careerChangeText > h3 {
+	color: rgb(43, 139, 145);
+	margin: 0;
+	padding-top: 40px;
+}
+
+.careerChangeText {
+	padding-left: 60px;
 }
