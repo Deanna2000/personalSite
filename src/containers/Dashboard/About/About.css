@@ -286,7 +286,7 @@ bottom: 0;
 	color: rgb(43, 139, 145);
 	padding-right: 50px;
 	padding-bottom: 22px;
-	padding-top: 40px;
+	padding-top: 10px;
 }
 
 .careerChangeText > h3 {
@@ -297,4 +297,43 @@ bottom: 0;
 
 .careerChangeText {
 	padding-left: 60px;
+}
+
+
+.funStuffModal {
+	background-image: url('../../../components/IMAGES/funstuff.png');
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-color: white !important;
+	display: grid;
+	grid-template-columns: 30% 30% 30%;
+	column-gap: 20px;
+	align-items: center;
+	padding: 40px 40px 20px 40px;
+}
+
+.funStuffModal > p {
+	color: rgb(43, 139, 145);
+	grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.funStuffModal > h3 {
+	color: rgb(43, 139, 145);
+	margin: 0;
+	padding: 10px 0 0 0;
+	grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+}
+
+.funStuffToDo {
+	height: 280px;
+	width: 210px;
+}
+
+.funStuffIMake {
+	height: 280px;
+	width: 210px;
 }
