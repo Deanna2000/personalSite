@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Volunteer from './Volunteer';
 import CoreFocus from './CoreFocus';
 import CareerChange from './CareerChange';
+import FunStuff from './FunStuff';
 
 
 class About extends Component {
@@ -17,7 +18,7 @@ class About extends Component {
 					<CoreFocus />
 					<Volunteer />
 					<CareerChange />
-					<h3 className="funStuff">Fun Stuff</h3>
+					<FunStuff />
 				</section>
 			</div>
 		);

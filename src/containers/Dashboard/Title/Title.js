@@ -13,7 +13,6 @@ class Title extends Component {
 
 			<div>
 			<Parallax>
-
               <img className="titleLogo" alt="logo" src={titleLogo} />
 			  <h1 className="titleName">DEANNA VICKERS</h1>
 			  <h4>Heart of a user, brain of a developer</h4>

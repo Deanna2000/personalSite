@@ -37,8 +37,8 @@ body {
     background-position:0 0, 10px 10px;
 }
 
-.thirdSection {
-    height: 600px;
+.projectsSection {
+    height: 650px;
     background-image: url('../../components/IMAGES/GrayFlowersBottom.png');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -54,10 +54,11 @@ body {
 
 .fifthSection {
     height: 600px;
-    background-image: url('../../components/IMAGES/brownfloral.png');
+    background-image: url('../../components/IMAGES/deannavision.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	opacity: .7;
+	background-color: lightgray;
+	opacity: .5;
 }
 
 .promo {

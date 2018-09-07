@@ -7,6 +7,7 @@ import linkicon from '../../components/IMAGES/linkedinicon.png';
 import NavBar from '../Dashboard/NavBar/NavBar';
 import Title from '../Dashboard/Title/Title';
 import About from '../Dashboard/About/About';
+import Projects from '../Dashboard/Projects/Projects';
 
 class Home extends Component {
   render() {
@@ -21,7 +22,8 @@ class Home extends Component {
         <section className="aboutSection">
 			<About />
         </section>
-        <section className="thirdSection">
+        <section className="projectsSection">
+			<Projects />
         </section>
 		<div className="fourthSection">
         </div>

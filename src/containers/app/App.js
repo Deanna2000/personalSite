@@ -5,7 +5,7 @@ import React from 'react';
 import Home from '../homePage/index'
 import './App.css';
 import About from '../Dashboard/About/About'
-import MyCollection from '../Dashboard/Items/DisplayItems'
+import Projects from '../Dashboard/Projects/Projects'
 
 
 // Sets up the main view and the routing to main app urls
@@ -18,7 +18,7 @@ class App extends React.Component {
           <div>
             <Route exact path="/" component={Home}/>
             <Route path="/about" component={About}/>
-            <Route path="/mycollection" component={MyCollection}/>
+            <Route path="/projects" component={Projects}/>
         </div>
         </Router>
       </div>
