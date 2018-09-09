@@ -3,6 +3,7 @@
 	padding: 20px;
 	color: white;
 	font-size: 4em;
+	padding-top: 60px;
 }
 
 .projectsSectionContainer {
@@ -29,8 +30,12 @@ align-items: center;
 	height: 200px;
 }
 
-p {
-	color: rgb(43, 139, 145);
+.projects > p {
+	color: white;
 	padding: 20px 0 20px 0;
-	font-size: 1.5em;
+	font-size: 1.2em;
+}
+
+.linkcolor {
+	color: rgba(235, 53, 95, .8) !important;
 }

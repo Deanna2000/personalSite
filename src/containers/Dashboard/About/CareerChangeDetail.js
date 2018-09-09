@@ -15,8 +15,8 @@ class CareerChangeDetail extends Component {
 					<br/>
 					<br/>
 					Enter NSS, a place where I can get both of those things and so much more. I am almost finished with a 6 month bootcamp in HTML/CSS/JavaScript, React, Python and Django. I am getting exposure to architect level design decision making as well as industry standards and practices. The possibilities for where I can take my career with these new skills are wide open. As a product owner, I have several ideas of my own that I hope to bring to life, and as a project manager, I hope to provide value as a technical leader in an organization.</p>
-					<a className="linkedinarticle" target="_blank" href="https://www.linkedin.com/pulse/transitioning-tech-job-easy-deanna-vickers-2/"><p>See my article about Career Transition</p></a>
-					<a className="linkedinarticle" target="_blank" href="https://www.linkedin.com/pulse/re-schooling-your-career-deanna-vickers/"><p>See my article about NSS</p></a>
+					<a className="linkedinarticle" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/pulse/transitioning-tech-job-easy-deanna-vickers-2/"><p>See my article about Career Transition</p></a>
+					<a className="linkedinarticle" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/pulse/re-schooling-your-career-deanna-vickers/"><p>See my article about NSS</p></a>
 				</div>
 
 			</div>

@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import './Home.css';
-import fbicon from '../../components/IMAGES/facebookicon.png';
-import twicon from '../../components/IMAGES/twittericon.png';
-import pinteresticon from '../../components/IMAGES/pinteresticon.png';
-import linkicon from '../../components/IMAGES/linkedinicon.png';
 import NavBar from '../Dashboard/NavBar/NavBar';
 import Title from '../Dashboard/Title/Title';
 import About from '../Dashboard/About/About';
 import Projects from '../Dashboard/Projects/Projects';
+import Experience from '../Dashboard/Experience/Experience';
+import Social from './Social'
 
 class Home extends Component {
   render() {
@@ -16,27 +14,25 @@ class Home extends Component {
         <div>
 			<NavBar />
         </div>
-        <section className="titleSection">
+        <section className="titleSection" id="titleSection">
 			<Title />
         </section>
-        <section className="aboutSection">
+        <section className="aboutSection" id="aboutSection">
 			<About />
         </section>
-        <section className="projectsSection">
+        <section className="projectsSection" id="projectsSection">
 			<Projects />
         </section>
-		<div className="fourthSection">
+		<div className="experienceSection" id="experienceSection">
+			<Experience />
         </div>
-		<div className="fifthSection">
+		<div className="contactSection" id="contactSection">
         </div>
         <div className="footer">
-          <p>@2018 Borrow App  </p>
-          <p>Follow us on social media</p>
-          <img className="socialicon" alt="fbicon" src={fbicon} />
-          <img className="socialicon" alt="twicon" src={twicon} />
-          <img className="socialicon" alt="pinteresticon" src={pinteresticon} />
-          <img className="socialicon" alt="liicon" src={linkicon} />
-        </div>
+			<p>@2018 Deanna Vickers</p>
+			<p>Connect with me</p>
+         	<Social />
+		</div>
       </div>
     );
   }

@@ -13,7 +13,7 @@ class About extends Component {
 		return (
 
 			<div>
-				{/* <h1 className="aboutTitle">Getting to Know Me</h1> */}
+				<h1 className="aboutTitle">About</h1>
 				<section className="aboutSectionContainer">
 					<CoreFocus />
 					<Volunteer />

@@ -1,6 +1,5 @@
 import '../../index.css';
 import { BrowserRouter as Router, Route } from 'react-router-dom'
-import { ParallaxProvider } from 'react-scroll-parallax';
 import React from 'react';
 import Home from '../homePage/index'
 import './App.css';
@@ -12,7 +11,6 @@ import Projects from '../Dashboard/Projects/Projects'
 class App extends React.Component {
   render() {
     return (
-	<ParallaxProvider>
       <div className="App">
         <Router>
           <div>
@@ -22,7 +20,6 @@ class App extends React.Component {
         </div>
         </Router>
       </div>
-	  </ParallaxProvider>
     );
   }
 }

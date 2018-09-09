@@ -12,14 +12,14 @@ class FunStuffDetail extends Component {
 		return (
 			<div >
 			<div className="funStuffModal">
-				<img className="funStuffToDo" src={ fun1 }/>
-				<img className="funStuffIMake" src={ fun2 }/>
-				<img className="funStuffIMake" src={ fun3 }/>
+				<img className="funStuffToDo" alt="Doing Fun Stuff" src={ fun1 }/>
+				<img className="funStuffIMake" alt="Making Stuff" src={ fun2 }/>
+				<img className="funStuffIMake" alt="Making More Fun Stuff" src={ fun3 }/>
 
 				<h3>Fun Stuff!</h3>
 				<p>During my free time I tend to focus on things that challenge me mentally and physically. I have a penchant for DIY projects and I also love to cook, bake, sing and spend a lot of time outside hiking or biking.
 				<br/>
-				Follow my instagram account to see more about my adventuring and creating. <a href="https://www.instagram.com/deannaz000/"></a></p>
+				Follow my <a className="linkcolor" href="https://www.instagram.com/deannaz000/">instagram account</a> to see more about my adventuring and creating. </p>
 				</div>
 			</div>
 		);

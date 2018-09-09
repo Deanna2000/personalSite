@@ -6,7 +6,8 @@
 }
 
 .logo {
-    height: 30px !important;
+	height: 30px !important;
+	margin-top: -5px;
 }
 
 li {
@@ -24,14 +25,12 @@ a {
 
 
 .navbar-inverse {
-	background-color: rgba(66, 153, 159, .9) !important;
+
+	background-color: rgba(45, 104, 108, .9) !important;
 	border-bottom: solid 4px rgba(221, 192, 143, .8);
 	background-image: none !important;
+
 	border-color: rgba(66, 153, 159, .9) !important;
 }
 
 
-/* .navbar {
-	margin-bottom: 0 !important;
-	border:none;
-} */
