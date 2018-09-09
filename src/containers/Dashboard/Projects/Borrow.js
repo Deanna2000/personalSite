@@ -11,10 +11,9 @@ class Borrow extends Component {
   render() {
       return (
 
-			<div>
+			<div className="projects">
               <img className="borrowLogo" alt="logo" src={borrowLogo} />
-			  <p>Web application to help manage things you borrow and loan to friends. It’s built in React.js with react-bootstrap. Firebase is used for data storage as well as a social login option. A beta version is available at <a href='www.theborrowapp.com'>www.theborrowapp.com</a></p>
-
+			  <p>Web application to help manage things you borrow and loan to friends. It’s built in React.js with react-bootstrap. Firebase is used for data storage as well as a social login option. A beta version will soon be available at <a className="linkcolor" href='www.theborrowapp.com'>www.theborrowapp.com</a>. For now, please check out my <a className="linkcolor" href='https://github.com/Deanna2000/capstone-project-cohort25'>github repo</a> to see progress. </p>
             </div>
       );
     }

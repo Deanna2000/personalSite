@@ -4,11 +4,11 @@
     background-repeat: no-repeat;
     background-color: rgba(101, 179, 184, 0.5);
     background-blend-mode: color-burn;
-    height: 266px;
-    width: 400px;
-	padding-top: 79px;
+    height: 200px;
+    width: 200px;
+	/* padding-top: 79px;
     padding-left: 69%;
-    padding-right: 17%;
+    padding-right: 17%; */
     color: white;
     box-shadow: inset 0px 0px 50px 5px rgba(77, 112, 114, 0.9);
 	border: solid 3px rgb(160, 182, 184);
@@ -21,11 +21,11 @@
     background-repeat: no-repeat;
     /* background-color: rgba(101, 179, 184, 0.5); */
     background-blend-mode: color-burn;
-    height: 266px;
-    width: 400px;
-	padding-top: 79px;
+    height: 200px;
+    width: 200px;
+	/* padding-top: 79px;
     padding-left: 69%;
-    padding-right: 17%;
+    padding-right: 17%; */
     color: white;
     box-shadow:  0px 0px 50px 5px rgba(77, 112, 114, 0.9);
 	border: solid 3px rgba(221, 192, 143, .9);
@@ -39,10 +39,10 @@
 	background-repeat: no-repeat;
 	background-color: rgba(101, 179, 184, 0.5);
     background-blend-mode: color-burn;
-    height: 266px;
-    width: 400px;
-	padding-top: 86px;
-    padding-right: 19%;
+    height: 200px;
+    width: 200px;
+	/* padding-top: 86px;
+    padding-right: 19%; */
 	color: white;
     box-shadow: inset 0px 0px 50px 5px rgba(77, 112, 114, 0.9);
 	border: solid 3px rgb(160, 182, 184);
@@ -55,10 +55,10 @@
 	background-repeat: no-repeat;
 	background-color: rgba(101, 179, 184, 0.5);
     background-blend-mode: color-burn;
-    height: 266px;
-    width: 400px;
-	padding-top: 86px;
-    padding-right: 19%;
+    height: 200px;
+    width: 200px;
+	/* padding-top: 86px;
+    padding-right: 19%; */
 	color: white;
 	box-shadow:  0px 0px 50px 5px rgba(77, 112, 114, 0.9);
 	border: solid 3px rgba(221, 192, 143, .8);
@@ -71,11 +71,11 @@
 	background-repeat: no-repeat;
 	background-color: rgba(101, 179, 184, 0.5);
     background-blend-mode: color-burn;
-    height: 266px;
-    width: 400px;
-	padding-top: 142px;
+    height: 200px;
+    width: 200px;
+	/* padding-top: 142px;
     padding-left: 24%;
-    padding-right: 5%;
+    padding-right: 5%; */
 	color: white;
     box-shadow: inset 0px 0px 50px 5px rgba(77, 112, 114, 0.9);
 	border: solid 3px rgb(160, 182, 184);
@@ -88,11 +88,11 @@
 	background-repeat: no-repeat;
 	background-color: rgba(101, 179, 184, 0.5);
     background-blend-mode: color-burn;
-    height: 266px;
-    width: 400px;
-	padding-top: 142px;
+    height: 200px;
+    width: 200px;
+	/* padding-top: 142px;
     padding-left: 24%;
-    padding-right: 5%;
+    padding-right: 5%; */
 	color: white;
     box-shadow:  0px 0px 50px 5px rgba(77, 112, 114, 0.9);
 	border: solid 3px rgba(221, 192, 143, .8);
@@ -105,11 +105,11 @@
 	background-repeat: no-repeat;
 	background-color: rgba(101, 179, 184, 0.5);
     background-blend-mode: color-burn;
-    height: 266px;
-    width: 400px;
-    padding-top: 26px;
+    height: 200px;
+    width: 200px;
+    /* padding-top: 26px;
 	padding-left: 25%;
-    padding-right: 9%;
+    padding-right: 9%; */
 	color: white;
     box-shadow: inset 0px 0px 50px 5px rgba(77, 112, 114, 0.9);
 	border: solid 3px rgb(160, 182, 184);
@@ -122,11 +122,11 @@
 	background-repeat: no-repeat;
 	background-color: rgba(101, 179, 184, 0.5);
     background-blend-mode: color-burn;
-    height: 266px;
-    width: 400px;
-    padding-top: 26px;
+    height: 200px;
+    width: 200px;
+    /* padding-top: 26px;
 	padding-left: 25%;
-    padding-right: 9%;
+    padding-right: 9%; */
 	color: white;
 	box-shadow:  0px 0px 50px 5px rgba(77, 112, 114, 0.9);
 	border: solid 3px rgba(221, 192, 143, .8);
@@ -135,9 +135,9 @@
 
 .aboutTitle {
 	color: white;
-	margin: 0;
-	padding-top: 50px;
-	padding-bottom: 30px;
+	margin: 0 !important;
+	padding-top: 60px;
+	font-size: 4em;
 }
 
 .aboutSectionContainer {
@@ -150,7 +150,8 @@
 }
 
 h3 {
-	font-size: 38px !important;
+	font-size: 30px !important;
+	padding-top: 10px;
 }
 
 .custom-overlay {
@@ -245,9 +246,10 @@ bottom: 0;
 
 .linkedinarticle > p {
 	text-decoration: none;
-	color: rgb(168, 28, 60);
+	color: rgba(235, 53, 95, .8);
 	font-size: 1.2em;
 	padding-bottom: 10px;
+	margin-bottom: 0;
 }
 
 .vologo {

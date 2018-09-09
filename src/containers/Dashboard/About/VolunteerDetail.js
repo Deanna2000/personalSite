@@ -20,7 +20,7 @@ class VolunteerDetail extends Component {
 				<br/>
 				One of the things that makes me feel great about volunteering is getting to bridge communities and encourage disenfranchised groups by helping them become speakers, volunteers, and organizers.
 			</p>
-			<a className="linkedinarticle" target="_blank" href="https://www.linkedin.com/pulse/top-5-reasons-volunteer-conference-deanna-vickers/"><p>Read my article about volunteering!</p></a>
+			<a className="linkedinarticle" target="_blank"  rel="noopener noreferrer" href="https://www.linkedin.com/pulse/top-5-reasons-volunteer-conference-deanna-vickers/"><p>Read my article about volunteering!</p></a>
 			</div>
 
 			<div className="vologogroup">
