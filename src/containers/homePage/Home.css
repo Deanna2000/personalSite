@@ -121,6 +121,10 @@ body {
 	margin-top: 20px;
 }
 
+.connectWithMe > p {
+text-align: center;
+}
+
 .right.carousel-control, .left.carousel-control, .carousel-indicators{
     opacity: 0;
     filter:alpha(opacity=0); /* IE support */

@@ -29,7 +29,7 @@ class Home extends Component {
 			<Experience />
         </div>
 		<div className="contactSection" id="contactSection">
-			<Contact />
+			{/* <Contact /> */}
         </div>
         <div className="footer">
 		<div className="connectWithMe">
