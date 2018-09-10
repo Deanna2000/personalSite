@@ -29,8 +29,11 @@ a {
 	background-color: rgba(45, 104, 108, .9) !important;
 	border-bottom: solid 4px rgba(221, 192, 143, .8);
 	background-image: none !important;
-
 	border-color: rgba(66, 153, 159, .9) !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: rgb(235, 233, 124) !important;
 }
 
 

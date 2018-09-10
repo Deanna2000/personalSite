@@ -3,6 +3,7 @@
 	color: white;
 	font-size: 4em;
 	padding-top: 60px;
+	padding-bottom: 20px;
 
 }
 
@@ -12,21 +13,30 @@
 }
 
 .experienceSectionContainer {
-	display: grid;
 	padding-left: 5%;
-    grid-template-columns: 70% ;
-    align-items: flex-start;
-	column-gap: 5%;
+	padding-right: 5%;
+
 }
 
 .experienceItems > h4 {
 	font-size: 20px !important;
 	text-align: left;
-	/* display: flex; */
 }
 
 .experienceItems > h5, h6, p {
 	color: white !important;
 	text-align: left;
+
 }
 
+.skillsLogos {
+
+	text-align: center;
+	padding-top: 40px;
+}
+
+.skillsIcons {
+	font-size: 40px;
+	color: white;
+	padding: 5px;
+}

@@ -109,6 +109,16 @@ body {
 	padding: 8px;
 }
 
+
+.socialicon:hover {
+	height: 40px;
+    width:  40px;
+	margin: 0;
+	padding: 8px;
+	box-shadow:  0px 0px 5px 2px white;
+}
+
+
 .carouselFooter {
 	width: 120px;
 	height:120px;
