@@ -25,16 +25,16 @@ class NavBar extends Component {
 					</Navbar.Header>
 					<Navbar.Collapse>
 						<Nav>
-							<NavItem eventKey={1} href="#aboutSection">
+							<NavItem className="navItem" eventKey={1} href="#aboutSection">
 								About
       						</NavItem>
-							<NavItem eventKey={2} href="#projectsSection">
+							<NavItem className="navItem" eventKey={2} href="#projectsSection">
 								Projects
       						</NavItem>
-							<NavItem eventKey={2} href="#experienceSection">
+							<NavItem className="navItem" eventKey={2} href="#experienceSection">
 								Experience
      						 </NavItem>
-							<NavItem eventKey={2} href="#contactSection">
+							<NavItem className="navItem" eventKey={2} href="#contactSection">
 								Contact
       						</NavItem>
 						</Nav>

@@ -122,7 +122,7 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
-	padding-bottom: 25px;
+	padding-bottom: 50px;
 	padding-top: 25px;
 }
 
@@ -179,7 +179,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .coreFocusModal > p {
-	color: rgb(43, 139, 145);
+	color: rgb(43, 139, 145) !important;
     margin: 0 !important;
     padding-top: 25px;
     padding-left: 440px;
@@ -206,7 +206,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .volunteerText > p {
-	color: rgb(43, 139, 145);
+	color: rgb(43, 139, 145) !important;
 	padding-right: 50px;
     padding-bottom: 22px;
     padding-top: 107px;
@@ -222,8 +222,8 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .linkedinarticle > p {
+	color: rgb(235, 233, 124)!important;
 	text-decoration: none;
-	color: rgba(235, 53, 95, .8);
 	font-size: 1.2em;
 	padding-bottom: 10px;
 	margin-bottom: 0;
@@ -248,7 +248,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .careerChangeModal > p {
-	color: rgb(43, 139, 145);
+	color: rgb(43, 139, 145) !important;
     margin: 0 !important;
     padding-top: 25px;
     padding-left: 440px;
@@ -292,7 +292,7 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .funStuffModal > p {
-	color: rgb(43, 139, 145);
+	color: rgb(43, 139, 145) !important;
 	grid-column-start: 1;
     grid-column-end: 4;
     text-align: center;
