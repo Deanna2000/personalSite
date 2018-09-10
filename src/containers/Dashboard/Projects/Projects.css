@@ -15,6 +15,7 @@ padding: 0 40px 0 60px;
 
 .borrowLogo {
 	width: 150px;
+	padding-top: 20px;
 }
 
 .studywhereLogo {
@@ -22,11 +23,11 @@ padding: 0 40px 0 60px;
 }
 
 .itemsView {
-	height: 180px;
+	width: 94%;
 }
 
 .studyWhereView {
-	height: 200px;
+	width: 80%;
 }
 
 .projects > p {

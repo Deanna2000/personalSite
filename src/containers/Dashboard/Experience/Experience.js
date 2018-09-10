@@ -31,7 +31,8 @@ class Experience extends Component {
 					<p>Transitioned the software delivery team to Agile by adding Scrum practices across all projects. Served as an escalation point for all clients. Provided coaching and mentoring for team members. </p>
 					<p>For more detail on my work history, skills, and certifications, you can see my <a className='linkcolor' href='http://linkedin.com/deannavickers'>LinkedIn Profile</a>.</p>
 </section>
-<section className="skillsLogos">
+<section >
+<div className="skillsLogos">
 <i className="skillsIcons devicon-amazonwebservices-plain-wordmark"></i>
 <i className="skillsIcons devicon-bootstrap-plain-wordmark"></i>
 <i className="skillsIcons devicon-css3-plain-wordmark"></i>
@@ -44,7 +45,7 @@ class Experience extends Component {
 <i className="skillsIcons devicon-jquery-plain-wordmark"></i>
 <i className="skillsIcons devicon-python-plain-wordmark"></i>
 <i className="skillsIcons devicon-react-original-wordmark"></i>
-
+</div>
 
 </section>
 </div>

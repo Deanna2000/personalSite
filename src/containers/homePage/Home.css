@@ -37,7 +37,7 @@ body {
 }
 
 .projectsSection {
-    height: 650px;
+    height: 700px;
     background-image: url('../../components/IMAGES/GrayFlowersBottom.png');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -51,7 +51,7 @@ body {
 }
 
 .contactSection {
-    height: 700px;
+    height: 720px;
     background-image: url('../../components/IMAGES/deannavision.png');
 	background-size: cover;
 	background-repeat: no-repeat;
