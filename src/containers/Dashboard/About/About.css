@@ -261,8 +261,8 @@ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
 
-.careerChangeText > p {
-	color: rgb(43, 139, 145);
+.careerChangeText  p {
+	color: rgb(43, 139, 145) !important;
 	padding-right: 50px;
 	padding-bottom: 22px;
 	padding-top: 10px;
