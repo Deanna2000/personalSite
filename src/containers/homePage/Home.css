@@ -94,6 +94,7 @@ body {
 
 .social {
 	margin-top: 6px;
+	text-align: end;
 }
 
 .social>p {
