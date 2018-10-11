@@ -2,7 +2,7 @@
   "name": "deanna-personal-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://deanna2000.github.io/personalSite",
+  "homepage": "https://deanna2000.github.io/personalSite",
   "dependencies": {
     "bootstrap": "^3.3.7",
     "dns": "file:./src/dns",
