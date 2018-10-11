@@ -11,6 +11,14 @@
       "id": 1,
       "body": "some comment",
       "postId": 1
+    },
+    {
+      "fName": "Deanna",
+      "lName": "Vickers",
+      "email": "deanna2000@gmail.com",
+      "password": "hey there, I'm testing this shit",
+      "date": "",
+      "id": 2
     }
   ],
   "profile": {

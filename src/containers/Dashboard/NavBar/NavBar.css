@@ -10,6 +10,10 @@
 	margin-top: -5px;
 }
 
+.social {
+	text-align: end;
+}
+
 li {
     font-size: 1.2sem;
 }
