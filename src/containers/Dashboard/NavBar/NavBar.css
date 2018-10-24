@@ -6,7 +6,7 @@
 }
 
 .logo {
-	height: 30px !important;
+	height: 50px !important;
 	margin-top: -5px;
 }
 
@@ -17,12 +17,17 @@ li {
 a {
 	  color: white !important;
 	  text-shadow: none !important;
+	  line-height: 38px !important;
+	  font-size: 1.4em;
 }
 
 .nav-tabs > li.active > a{
-      color: #5fd0b6 !important;
+	  color: #5fd0b6 !important;
 }
 
+.navbar {
+	min-height: 70px !important;
+}
 
 .navbar-inverse {
 
